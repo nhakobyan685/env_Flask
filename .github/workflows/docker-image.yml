@@ -21,4 +21,4 @@ jobs:
       with:
           context: .
           push: true
-          tags: nhakobyan685/envflaskprod:v0.1.0, nhakobyan685/envflaskprod:${{ github.run_number }}
+          tags: nhakobyan685/envflaskprod:v0.1.0, nhakobyan685/envflaskprod:${{ github.run_number }} 

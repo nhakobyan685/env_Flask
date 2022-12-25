@@ -2,7 +2,7 @@ version: "3.8"
 services:
   app:
     build: .
-    image: devapp:1.0.0
+    image: nhakobyan685/flaskenvdev:v0.1.0
     volumes:
       - .:/app:rw
     ports:

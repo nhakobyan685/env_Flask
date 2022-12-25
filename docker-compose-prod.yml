@@ -2,6 +2,6 @@ version: "3.8"
 services:
   app:
     build: .
-    image: nhakobyan685:v0.1.0
+    image: nhakobyan685/flaskenv:v0.1.0
     ports:
       - "50:5000"
